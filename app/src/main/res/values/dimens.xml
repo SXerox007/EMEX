@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ButtonLoginMarginStart">34dp</dimen>
+    <dimen name="ButtonLoginMarginEnd">34dp</dimen>
+    <dimen name="ImageViewMarginStart">54dp</dimen>
+    <dimen name="ImageViewMarginEnd">53dp</dimen>
+    <dimen name="ImageViewLayoutWidth">253dp</dimen>
+    <dimen name="ImageViewLayoutHeight">162dp</dimen>
+    <dimen name="ButtonSignupMarginStart">34dp</dimen>
+    <dimen name="ButtonSignupMarginEnd">34dp</dimen>
+    <dimen name="StrokeWidth">3dp</dimen>
+    <dimen name="LayoutMarginTop">200dp</dimen>
+    <dimen name="ButtonLoginLayoutMarginTop">80dp</dimen>
+    <dimen name="ButtonSignUpLayoutMarginTop">10dp</dimen>
+    <dimen name="ButtonSignUpLayoutMarginBottom">20dp</dimen>
+    <dimen name="LoginImageViewLayoutMarginTop">50dp</dimen>
+    <dimen name="EditTextLayoutMarginEnd">34dp</dimen>
+    <dimen name="EditTextLayoutMarginStart">34dp</dimen>
+    <dimen name="EditTextDrawablePadding">10dp</dimen>
+    <dimen name="LoginButtonLayoutMarginTop">15dp</dimen>
+    <dimen name="LoginEditTextLayoutMarginTop">20dp</dimen>
+    <dimen name="EditTextLayoutMarginTop">50dp</dimen>
+    <dimen name="ForgetTextViewSize">14sp</dimen>
+    <dimen name="TextViewLayoutMarginEnd">118dp</dimen>
+    <dimen name="TextViewLayoutMarginStart">118dp</dimen>
+    <dimen name="TextViewLayoutMarginTop">11dp</dimen>
+    <dimen name="LinearLayoutLayoutMarginTop">80dp</dimen>
+    <dimen name="LinearLayoutMarginBottom">13dp</dimen>
+    <dimen name="TextViewTextSize">16sp</dimen>
+    <dimen name="SignupImageViewLayoutWidth">90dp</dimen>
+    <dimen name="SignupImageViewLayoutHeight">90dp</dimen>
+    <dimen name="SignupImageViewLayoutMarginEnd">135dp</dimen>
+    <dimen name="SignupImageViewLayoutMarginStart">135dp</dimen>
+    <dimen name="SignupImageViewLayoutMarginTop">10dp</dimen>
+    <dimen name="SignupLinearLayoutLayoutMarginTop">10dp</dimen>
+    <dimen name="SignupLayoutMarginStart">22dp</dimen>
+    <dimen name="SignupLayoutMarginEnd">22dp</dimen>
+    <dimen name="signupEditTextLayoutMarginTop">10dp</dimen>
+    <dimen name="ToolbarLayoutHeight">48dp</dimen>
+    <dimen name="SignupCheckBoxLayoutMarginEnd">30dp</dimen>
+    <dimen name="SignupCheckBoxLayoutMarginStart">30dp</dimen>
+    <dimen name="SignupCheckBoxLayoutMarginTop">3dp</dimen>
+    <dimen name="SignupButtonLayoutMarginBottom">5dp</dimen>
+    <dimen name="SignupButtonLayoutMarginTop">5dp</dimen>
+    <dimen name="DrawerLayoutWidth">200dp</dimen>
+    <dimen name="ForgetPasswordLayoutMargin">55dp</dimen>
+    <dimen name="ShapesLineWidth">2dp</dimen>
+
+    <!-- Fonts' sizes -->
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_xlarge">28sp</dimen>
+    <dimen name="text_size_fragment_number">122sp</dimen>
+
+<dimen name="chatBoxLayoutMarginEnd">15dp</dimen>
+    <dimen name="HomepaddingTextView">20dp</dimen>
+
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_medium">15dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_xlarge">25dp</dimen>
+
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_medium">15dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+    <dimen name="padding_xlarge">25dp</dimen>
+
+
+
+
+</resources>

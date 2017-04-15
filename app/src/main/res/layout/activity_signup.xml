@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sumit_thakur.emex.SignupActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/action_tool_bar" />
+            </LinearLayout>
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="@dimen/SignupImageViewLayoutWidth"
+                android:layout_height="@dimen/SignupImageViewLayoutHeight"
+                android:layout_marginEnd="@dimen/SignupImageViewLayoutMarginEnd"
+                android:layout_marginStart="@dimen/SignupImageViewLayoutMarginStart"
+                android:layout_marginTop="@dimen/SignupImageViewLayoutMarginTop"
+                android:src="@drawable/user_placeholder" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/SignupLinearLayoutLayoutMarginTop"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/etFirstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/SignupLayoutMarginStart"
+                        android:layout_weight="1"
+                        android:drawablePadding="@dimen/EditTextDrawablePadding"
+                        android:drawableStart="@drawable/icon_name"
+                        android:hint="@string/first_name_hint"
+                        android:inputType="textCapWords"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/etLastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/SignupLayoutMarginEnd"
+                        android:layout_weight="1"
+                        android:drawablePadding="@dimen/EditTextDrawablePadding"
+                        android:drawableStart="@drawable/icon_name"
+                        android:hint="@string/last_name_hint"
+                        android:inputType="textCapWords" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    style="@style/EditTextContact"
+                    android:id="@+id/etContactNumber"
+                    android:layout_marginTop="@dimen/signupEditTextLayoutMarginTop"
+                    android:layout_marginEnd="@dimen/SignupLayoutMarginEnd"
+                    android:layout_marginStart="@dimen/SignupLayoutMarginStart"
+                    android:drawablePadding="@dimen/EditTextDrawablePadding"
+                    android:drawableStart="@drawable/icon_contact"
+                     />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etContactName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/SignupLayoutMarginEnd"
+                    android:layout_marginStart="@dimen/SignupLayoutMarginStart"
+                    android:layout_marginTop="@dimen/signupEditTextLayoutMarginTop"
+                    android:drawablePadding="@dimen/EditTextDrawablePadding"
+                    android:drawableStart="@drawable/icon_name"
+                    android:hint="@string/contact_name_hint"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/SignupLayoutMarginEnd"
+                    android:layout_marginStart="@dimen/SignupLayoutMarginStart"
+                    android:layout_marginTop="@dimen/signupEditTextLayoutMarginTop"
+                    android:drawablePadding="@dimen/EditTextDrawablePadding"
+                    android:drawableStart="@drawable/icon_name"
+                    android:hint="@string/email_hint"
+                    android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/SignupLayoutMarginEnd"
+                    android:layout_marginStart="@dimen/SignupLayoutMarginStart"
+                    android:layout_marginTop="@dimen/signupEditTextLayoutMarginTop"
+                    android:drawablePadding="@dimen/EditTextDrawablePadding"
+                    android:drawableStart="@drawable/icon_password"
+                    android:hint="@string/password_hint"
+                    android:inputType="numberPassword"
+                    android:maxLength="4" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/SignupLayoutMarginEnd"
+                    android:layout_marginStart="@dimen/SignupLayoutMarginStart"
+                    android:layout_marginTop="@dimen/signupEditTextLayoutMarginTop"
+                    android:drawablePadding="@dimen/EditTextDrawablePadding"
+                    android:drawableStart="@drawable/icon_password"
+                    android:hint="@string/confirm_password"
+                    android:inputType="numberPassword"
+                    android:maxLength="4" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                style="@style/checkBox"
+                android:layout_marginEnd="@dimen/SignupCheckBoxLayoutMarginEnd"
+                android:layout_marginStart="@dimen/SignupCheckBoxLayoutMarginStart"
+                android:text="@string/accept_terms_and_condition"
+                android:button="@drawable/coustom_checkbox"
+                />
+
+            <Button
+                android:id="@+id/btnSignup"
+                style="@style/btnSignup"
+                android:layout_marginEnd="@dimen/ButtonSignupMarginEnd"
+                android:layout_marginStart="@dimen/ButtonSignupMarginStart"
+                android:layout_marginTop="@dimen/SignupButtonLayoutMarginTop"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

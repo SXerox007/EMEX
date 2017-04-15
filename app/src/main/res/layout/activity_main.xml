@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.sumit_thakur.emex.MainActivity">
+
+    <ImageView
+    android:layout_width="@dimen/ImageViewLayoutWidth"
+    android:layout_height="@dimen/ImageViewLayoutHeight"
+    android:src="@drawable/logo"
+    android:layout_gravity="center"
+    android:layout_marginEnd="@dimen/ImageViewMarginEnd"
+    android:layout_marginStart="@dimen/ImageViewMarginStart"
+        android:layout_marginTop="@dimen/LayoutMarginTop"
+    />
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/btnPrimary"
+        android:layout_marginStart="@dimen/ButtonLoginMarginStart"
+        android:layout_marginEnd="@dimen/ButtonLoginMarginEnd"
+        android:layout_marginTop="@dimen/ButtonLoginLayoutMarginTop"
+        android:text="@string/LoginButton"
+        />
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Signup"
+        android:layout_marginStart="@dimen/ButtonSignupMarginStart"
+        android:layout_marginEnd="@dimen/ButtonSignupMarginEnd"
+        android:background="@drawable/button_boder"
+        android:layout_marginTop="@dimen/ButtonSignUpLayoutMarginTop"
+        android:layout_marginBottom="@dimen/ButtonSignUpLayoutMarginBottom"
+        android:textColor="@color/colorPrimary"
+        />
+
+</LinearLayout>

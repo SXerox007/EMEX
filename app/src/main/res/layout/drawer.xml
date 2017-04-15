@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/linearDrawer"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+android:orientation="vertical"
+android:gravity="left|start"
+    >
+
+<com.makeramen.roundedimageview.RoundedImageView
+    style="@style/ImageView"
+    android:layout_gravity="center"
+    android:src="@drawable/user_placeholder" />
+
+<TextView
+    android:id="@+id/drawerUserName"
+    style="@style/TextView"
+    android:text="Sumit Thakur"
+    android:textColor="@color/black"
+    android:textSize="@dimen/text_size_large"
+    android:textStyle="bold"
+    android:gravity="center"
+    />
+
+<TextView
+    android:id="@+id/drawerUserEmail"
+    style="@style/TextView"
+    android:text="Edit Profile"
+    android:textColor="@color/warm_grey"
+    android:textSize="@dimen/text_size_medium"
+    android:gravity="center"
+    />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tvNetworkView"
+        style="@style/TextView"
+        android:text="@string/networks_view"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/textBlack"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="normal"
+        android:drawableStart="@drawable/icon_networks"
+        android:drawablePadding="@dimen/EditTextDrawablePadding"
+        />
+    <CheckBox
+        android:layout_weight="0"
+        android:layout_gravity="bottom"
+        style="@style/checkBox"
+        android:button="@drawable/edit_text_checkbox"
+        />
+</LinearLayout>
+
+<TextView
+    android:id="@+id/tvPayment"
+    style="@style/TextView"
+    android:text="@string/payment"
+    android:textColor="@color/textBlack"
+    android:textSize="@dimen/text_size_medium"
+    android:textStyle="normal"
+    android:drawableStart="@drawable/icon_payment_pressed"
+    android:drawablePadding="@dimen/EditTextDrawablePadding"
+    />
+
+<TextView
+    style="@style/TextView"
+    android:id="@+id/tvJobHistoryTextView"
+    android:text="@string/job_history"
+    android:textColor="@color/textBlack"
+    android:textSize="@dimen/text_size_medium"
+    android:textStyle="normal"
+    android:drawableStart="@drawable/icon_job_normal"
+    android:drawablePadding="@dimen/EditTextDrawablePadding"
+    />
+<TextView
+    style="@style/TextView"
+    android:text="@string/emergency_contacts"
+    android:textColor="@color/textBlack"
+    android:textSize="@dimen/text_size_medium"
+    android:textStyle="normal"
+    android:drawableStart="@drawable/icon_emergency_normal"
+    android:drawablePadding="@dimen/EditTextDrawablePadding"
+    />
+<TextView
+    style="@style/TextView"
+    android:text="@string/help"
+    android:textColor="@color/textBlack"
+    android:textSize="@dimen/text_size_medium"
+    android:textStyle="normal"
+    android:drawableStart="@drawable/icon_help_normal"
+    android:drawablePadding="@dimen/EditTextDrawablePadding"
+    />
+<TextView
+    style="@style/TextView"
+    android:text="@string/logout"
+    android:textColor="@color/textBlack"
+    android:textSize="@dimen/text_size_medium"
+    android:textStyle="normal"
+    android:drawableStart="@drawable/icon_logout_normal"
+    android:drawablePadding="@dimen/EditTextDrawablePadding"
+    />
+<LinearLayout
+    android:layout_weight="2"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="0dp"
+    android:layout_marginTop="@dimen/margin_medium"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/text_support"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:padding="@dimen/padding_normal"
+        android:layout_marginTop="@dimen/text_size_small"
+        />
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:src="@drawable/call_icon_pressed"
+        android:layout_marginBottom="@dimen/margin_normal"
+        />
+</LinearLayout>
+</LinearLayout>

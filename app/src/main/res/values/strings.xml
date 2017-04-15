@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EMEX</string>
+    <string name="LoginButton">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="froget_password_text">Forget password?</string>
+    <string name="dont_have_account">Dont have an account ?</string>
+    <string name="first_name_hint">First name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="contact_number_hint">Contact Number</string>
+    <string name="contact_name_hint">Contact Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="accept_terms_and_condition">I accept <u>Terms and Service </u>and<u> Privacy Policy</u></string>
+    <string name="networks_view">Networks View</string>
+    <string name="payment">Payment</string>
+    <string name="job_history">Job History</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="text_support">Support via Call/Email</string>
+    <string name="forget_password_desc">Please enter your mobile number to reset your password.
+    </string>
+    <string name="continue_button">Continue</string>
+</resources>
