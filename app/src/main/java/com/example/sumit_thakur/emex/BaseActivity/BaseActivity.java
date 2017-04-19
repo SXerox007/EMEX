@@ -2,9 +2,15 @@ package com.example.sumit_thakur.emex.BaseActivity;
 
 import android.support.v7.app.AppCompatActivity;
 
+import com.example.sumit_thakur.emex.Constants.Constants;
+
 /**
- * Created by SUMIT_THAKUR on 11/04/17.
+ * Base Activity
  */
 
-public class BaseActivity extends AppCompatActivity {
+public class BaseActivity extends AppCompatActivity implements Constants {
+    @Override
+    public void extra() {
+
+    }
 }

@@ -5,8 +5,6 @@
     android:orientation="vertical"
     android:background="@color/white"
     >
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,11 +12,13 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btnJobHistory"
             style="@style/btnPrimary"
             android:layout_weight="1"
             android:text="Job History" />
 
         <Button
+            android:id="@+id/btnMissedJob"
             style="@style/btnPrimary"
             android:layout_weight="1"
             android:background="#18568c"

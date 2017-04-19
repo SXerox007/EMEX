@@ -12,8 +12,6 @@ import com.example.sumit_thakur.emex.BaseActivity.BaseActivity;
  * Main Activity of EMEX
  */
 public class MainActivity extends BaseActivity {
-
-    private static final int TIME_OUT = 2000, REQUEST_CODE_SIGNUP = 2, REQUEST_CODE_LOGIN = 3;
     private Button btnLogin, btnSignup;
 
     @Override
@@ -63,5 +61,10 @@ public class MainActivity extends BaseActivity {
     private void init() {
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnSignup = (Button) findViewById(R.id.btnSignup);
+    }
+
+    @Override
+    public void extra() {
+
     }
 }

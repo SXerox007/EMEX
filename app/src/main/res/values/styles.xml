@@ -27,11 +27,11 @@
         <item name="android:layout_height">match_parent</item>
     </style>
 
-<style name="ImageView">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_marginTop">10dp</item>
-</style>
+    <style name="ImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
 
     <style name="checkBox">
         <item name="android:layout_width">wrap_content</item>
@@ -60,5 +60,20 @@
         <item name="android:hint">@string/contact_number_hint</item>
         <item name="android:inputType">number</item>
         <item name="android:maxLength">10</item>
+    </style>
+
+    <style name="helpTextView" parent="@style/Match">
+        <item name="android:paddingTop">@dimen/padding_xxlarge</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">@dimen/padding_xxlarge</item>
+    </style>
+
+    <style name="helpViewLineHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/warm_grey</item>
     </style>
 </resources>

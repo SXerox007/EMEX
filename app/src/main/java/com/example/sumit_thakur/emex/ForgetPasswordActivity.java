@@ -29,12 +29,13 @@ public class ForgetPasswordActivity extends AppCompatActivity {
                 if (!contactNumber.isEmpty()) {
                     Toast.makeText(getBaseContext(), "Sucessfull Implementation delete this", Toast.LENGTH_LONG).show();
 
-                }else{
+                } else {
                     Toast.makeText(getBaseContext(), "Sorry First Fill Contact field.", Toast.LENGTH_LONG).show();
                 }
             }
         });
     }
+
     /**
      * initilization
      */

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.example.sumit_thakur.emex.Fragment.HelpFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:layout_marginStart="@dimen/margin_large"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/helpTextView"
+                android:text="@string/faq"
+
+                />
+
+            <View style="@style/helpViewLineHorizontal" />
+
+            <TextView
+                style="@style/helpTextView"
+                android:text="@string/about_us"
+
+                />
+
+            <View style="@style/helpViewLineHorizontal" />
+
+            <TextView
+                style="@style/helpTextView"
+                android:text="@string/contact_us"
+
+                />
+
+            <View style="@style/helpViewLineHorizontal" />
+
+            <TextView
+                style="@style/helpTextView"
+                android:text="@string/terms_of_use"
+
+                />
+
+            <View style="@style/helpViewLineHorizontal" />
+
+            <TextView
+                style="@style/helpTextView"
+                android:text="@string/privacy_policy"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

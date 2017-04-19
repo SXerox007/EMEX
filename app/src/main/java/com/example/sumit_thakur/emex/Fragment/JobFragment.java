@@ -20,10 +20,9 @@ import java.util.ArrayList;
  */
 public class JobFragment extends Fragment implements Constants {
     private ArrayList<JobHistoryModel> jobInfos;
-    private JobHistoryModel jobHistoryModel;
+    private JobHistoryModel jobHistoryModel, jobHistoryModel2;
     private RecyclerView recyclerView;
     private String jobHistory;
-
 
     /**
      * @param jobHistory code
@@ -43,6 +42,7 @@ public class JobFragment extends Fragment implements Constants {
         init();
         if (jobHistory.equals(JOB_HISTORY)) {
             jobInfos.add(jobHistoryModel);
+            jobInfos.add(jobHistoryModel2);
             RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(getContext(), jobInfos, JOB_HISTORY);
             recyclerViewCommon(view, recyclerViewAdapter);
         } else {
@@ -72,6 +72,9 @@ public class JobFragment extends Fragment implements Constants {
         jobHistoryModel = new JobHistoryModel("Sumit Thakur", "55.5 km",
                 "14 June, 2016 04:23 PM", "3846 W 38 Rd, Shiv Srishti Marg Mumbai",
                 "Silver Oks Hospital, Laxmi Nagar,Mumbai", "20 min", "1870");
+        jobHistoryModel2 = new JobHistoryModel("Honey", "550.5 km",
+                "15 June, 2016 04:23 AM", "B.C.S",
+                "Hospital,Shimla", "10 min", "1390");
     }
 
     @Override

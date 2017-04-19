@@ -1,15 +1,14 @@
 package com.example.sumit_thakur.emex.Constants;
 
 /**
- * Created by SUMIT_THAKUR on 14/04/17.
- */
-
-/**
  * constants
  */
 public interface Constants {
+    int REQUEST_CODE_PERMISSION = 2, TH_M = 10000;
     String JOB_HISTORY = "job";
     String MISSED_JOB = "missed";
+    int TIME_OUT = 2000;
+    int ZOOM_MAP = 18;
 
     /**
      * extra
