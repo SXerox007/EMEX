@@ -11,7 +11,6 @@ import android.location.Location;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
-import android.test.mock.MockPackageManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -193,7 +192,7 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback, Google
 
         try {
             if (ActivityCompat.checkSelfPermission(getContext(), mPermission)
-                    != MockPackageManager.PERMISSION_GRANTED) {
+                    != PackageManager.PERMISSION_GRANTED) {
 
                 ActivityCompat.requestPermissions((Activity) getContext(),
                         new String[]{mPermission}, REQUEST_CODE_PERMISSION);
@@ -254,7 +253,6 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback, Google
     private void updateLocation() {
         supportMapFragment.getMapAsync(this);
     }
-
 
     @Override
     public void extra() {

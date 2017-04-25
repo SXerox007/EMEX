@@ -39,7 +39,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         fragmentTransaction.replace(R.id.flHomeActivity, fragment);
         fragmentTransaction.commit();
 
-
         ivButtonMenu.setImageResource(R.drawable.ic_menu_button);
         tvJobHistory.setOnClickListener(this);
         tvHelpPressed.setOnClickListener(this);

@@ -47,6 +47,7 @@ public class JobFragment extends Fragment implements Constants {
             recyclerViewCommon(view, recyclerViewAdapter);
         } else {
             jobInfos.add(jobHistoryModel);
+            jobInfos.add(jobHistoryModel2);
             RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(getContext(), jobInfos, MISSED_JOB);
             recyclerViewCommon(view, recyclerViewAdapter);
         }
